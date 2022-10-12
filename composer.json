@@ -1,0 +1,21 @@
+{
+    "name": "janyksteenbeek/eventix-sdk",
+    "description": "Eventix PHP wrapper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Janyk\\Eventix\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Janyk Steenbeek",
+            "email": "info@janyksteenbeek.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
